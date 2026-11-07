@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMMANDER 360 – Military Personnel & Unit Management</title>
+    <meta name="description" content="Military Personnel Command, Administration & Unit Management System for authorized commanders and administrators." />
+    <meta property="og:title" content="COMMANDER 360 – Military Personnel & Unit Management" />
+    <meta property="og:description" content="Military Personnel Command, Administration & Unit Management System for authorized commanders and administrators." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // Gracefully ignore Vite HMR WebSocket connection errors in cloud container preview
+      window.addEventListener('unhandledrejection', function (e) {
+        var str = String(e && e.reason ? (e.reason.message || e.reason) : '');
+        if (str.includes('WebSocket') || str.includes('createWebSocketModuleRunnerTransport')) {
+          e.preventDefault();
+        }
+      });
+      window.addEventListener('error', function (e) {
+        var msg = String(e ? (e.message || '') : '');
+        if (msg.includes('WebSocket') || msg.includes('createWebSocketModuleRunnerTransport')) {
+          e.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

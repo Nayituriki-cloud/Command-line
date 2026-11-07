@@ -1,0 +1,6 @@
+{
+  "name": "COMMANDER 360",
+  "description": "Military Personnel Command, Administration & Unit Management System for authorized commanders and administrators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
